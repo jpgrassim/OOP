@@ -24,6 +24,7 @@ class BankAccount:
             self.__balance -= amount
         else:
             print('Error: Insufficient funds')
+            print('Enter correct amount')
 
       # The get_balance method returns the
       # account balance.
